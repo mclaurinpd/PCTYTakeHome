@@ -2,7 +2,7 @@
 
 ### Description
 The first and last names of employees are swapped in the UI.
-### Steps to Reproduce
+### Steps to reproduce
 **Browser:** Firefox and Chrome
 1. Login as an employer.
 2. Look at employee names in the table and see that they are swapped. This can be validated by viewing the API call in the network tab to see that first and last name are not correctly displayed.
@@ -21,7 +21,7 @@ Last name is the first name column
 
 ### Description
 The benefits dashboard is accessible without logging in.
-### Steps to Reproduce
+### Steps to reproduce
 1. Make sure you are not logged in to the dashboard.
 2. Go to this [link.](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)
 ### Expected
@@ -35,7 +35,7 @@ I can see the dashboard with no entries in the table. A GET call is made to the 
 
 ### Description
 The table border does not scale if the first and last name take up too much space.
-### Steps to Reproduce
+### Steps to reproduce
 1. Login as an employer.
 2. Add an employee and set the first and last name as strings that take up lots of space(capital w or capital m).
 ### Expected
@@ -50,7 +50,7 @@ The table border does not resize. It appears to have static dimensions while the
 
 ### Description
 Invalid username returns a 405, fails to reload the login page, and doesn't provide the user with any information as to why.
-### Steps to Reproduce
+### Steps to reproduce
 1. Go to the login page.
 2. Enter an invalid username and a random string for the password(can't be empty).
 ### Expected
