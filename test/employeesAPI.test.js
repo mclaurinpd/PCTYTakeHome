@@ -84,6 +84,7 @@ test.describe('Employees API', () => {
 			}
 		});
 
+		// this test fails because it is returning a 405 and not a 400. i believe this is incorrect because POST is allowed at this route.
 		test('should not create an employee with an empty payload (400)', async ({ request }) => {
 			const response = await request.post(employeesRoute);
 
