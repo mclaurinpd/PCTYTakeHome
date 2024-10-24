@@ -21,7 +21,7 @@ Last name is the first name column
 
 ### Description
 The benefits dashboard is accessible without logging in.
-### Steps to reproduce
+### Steps to Reproduce
 1. Make sure you are not logged in to the dashboard.
 2. Go to this [link.](https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits)
 ### Expected
