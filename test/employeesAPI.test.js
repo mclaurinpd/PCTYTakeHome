@@ -84,6 +84,7 @@ test.describe('Employees API', () => {
 			}
 		});
 
+		// this should likely return a 400 not a 415 because POST is allowed at this endpoint
 		test('should not create an employee with an empty payload (400)', async ({ request }) => {
 			const response = await request.post(employeesRoute);
 
