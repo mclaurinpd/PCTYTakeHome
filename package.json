@@ -1,0 +1,22 @@
+{
+  "name": "pctytakehome",
+  "version": "1.0.0",
+  "description": "a suite of API and UI test for paylocity takehome",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PCTYTakeHome"
+  },
+  "author": "phillip mclaurin",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.7",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "uuid": "^10.0.0"
+  }
+}
